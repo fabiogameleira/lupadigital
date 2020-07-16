@@ -50,7 +50,8 @@ function govbr_theme_preprocess_page(&$variables){
 function _govbr_theme_set_color_scheme($color_scheme) {
   $scheme_path = drupal_get_path('theme', 'govbr_theme') . '/css/color_scheme/' . $color_scheme . '/styles.css';
 
-  drupal_add_css($scheme_path, 'theme');
+  //drupal_add_css($directory.'/css/page--front.tpl.css', array('group' => CSS_THEME, 'every_page' => FALSE));
+    drupal_add_css($scheme_path, array('group' => CSS_THEME, 'every_page' => FALSE));
 }
 
 /**
