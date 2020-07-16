@@ -1,0 +1,649 @@
+.element-invisible {
+	margin: 0;
+    padding: 0;
+    width: 1px;
+}
+
+   
+#header .search-form .form-control {
+    color: #2c66ce;
+}
+#header .search-form .form-control {
+    border-right: 0;
+    box-shadow: none;
+}
+#search-form .form-control {
+    border-radius: 7px 0px 0px 7px;
+}
+
+#header .search-form .btn, #header .search-form .btn:hover {
+    box-shadow: none;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    border-left: 0;
+    overflow: hidden;
+    height: 39px;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: #cccccc;
+}
+
+.form-control {
+    border-radius: 7px 7px 7px 7px;
+	width: inherit;
+}
+
+.btn {
+    border-radius: 7px 7px 7px 7px;
+	}
+	
+.node-page h2 {
+  /*display: none;*/
+}
+
+#header .header-top {
+    margin: 10px 0 10px 0;
+}
+
+#conteudopreto {
+    background-color: #000000;
+    color: #000000;
+}
+#navbar {
+min-height: 32px;
+}
+
+.region-sidebar-first .menu li a:hover {
+    background-color: #ffcc66;
+}
+
+h1,
+.h1 {
+  font-size: 35px;
+}
+h2,
+.h2 {
+  font-size: 27px;
+}
+h3,
+.h3 {
+  font-size: 21px;
+}
+h4,
+.h4 {
+  font-size: 14px;
+}
+h5,
+.h5 {
+  font-size: 11px;
+}
+h6,
+.h6 {
+  font-size: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.1;
+
+}
+
+/* Cores WebSafe palete */
+
+table th {background-color: #FFCC66; padding: 10px;}
+table th {
+    background-color: #FFCC66;
+    padding: 10px;
+}
+table td { padding: 10px;}
+table tr {border-top: 1px solid #cccccc;}
+
+.websafecolor {border: 1px solid #cccccc;}
+caption {
+    display: table-caption;
+}	
+.codigo  {color: #000000; } 
+.cor01     {background-color: #000000; }
+.cor02     {background-color: #000033; }
+.cor03     {background-color: #000066; }
+.cor04     {background-color: #000099; }
+.cor05     {background-color: #0000cc; }
+.cor06     {background-color: #0000FF; }
+.cor07     {background-color: #003300; }
+.cor08     {background-color: #003333; }
+.cor09     {background-color: #003366; }
+.cor10     {background-color: #003399; }
+.cor11     {background-color: #0033cc;}
+.cor12     {background-color: #0033ff;}
+.cor13     {background-color: #006600;}
+.cor14     {background-color: #006633;}
+.cor15     {background-color: #006666;}
+.cor16     {background-color: #006666;}
+.cor17     {background-color: #006666;}
+.cor18     {background-color: #0066ff;}
+.cor19     {background-color: #009900;}
+.cor20     {background-color: #009933;}
+.cor21     {background-color: #009966;}
+.cor22     {background-color: #009999;}
+.cor23     {background-color: #0099cc;}
+.cor24     {background-color: #0099ff;}
+.cor25     {background-color: #00cc00;}
+.cor26     {background-color: #00cc33;}
+.cor27     {background-color: #00cc66;}
+.cor28     {background-color: #00cc99;} 
+.cor29     {background-color: #00cccc;}
+.cor30     {background-color: #00ccff;}
+.cor31     {background-color: #00FF00;}
+.cor32     {background-color: #00ff33;}
+.cor33     {background-color: #00FF66;}
+.cor34     {background-color: #00ff99;}
+.cor35     {background-color: #00FFCC;}
+.cor36     {background-color: #00FFFF;}
+.cor37     {background-color: #330000;}
+.cor38     {background-color: #330033;}
+.cor39     {background-color: #330066;}
+.cor40     {background-color: #330099;}
+.cor41     {background-color: #3300cc;}
+.cor42     {background-color: #3300ff;}
+.cor43     {background-color: #333300;}
+.cor44     {background-color: #333333;}
+.cor45     {background-color: #333366;}
+.cor46     {background-color: #333399;}
+.cor47     {background-color: #3333cc;}
+.cor48     {background-color: #3333ff;}
+.cor49     {background-color: #336600;}
+.cor50     {background-color: #336633;}
+.cor51     {background-color: #336666;}
+.cor52     {background-color: #336699;}
+.cor53     {background-color: #3366cc;}
+.cor54     {background-color: #3366ff;}
+.cor55     {background-color: #339900;}
+.cor56     {background-color: #339933;}
+.cor57     {background-color: #339966;}
+.cor58     {background-color: #339999;}
+.cor59     {background-color: #3399cc;}
+.cor60     {background-color: #3399ff;}
+.cor61     {background-color: #33cc00;}
+.cor62     {background-color: #33cc33;}
+.cor63     {background-color: #33cc66;}
+.cor64     {background-color: #33cc99;}
+.cor65     {background-color: #33cccc;}
+.cor66     {background-color: #33ccff;}
+.cor67     {background-color: #33ff00;}
+.cor68     {background-color: #33FF33;}
+.cor69     {background-color: #33FF66;}
+.cor70     {background-color: #33ff99;}
+.cor71     {background-color: #33FFCC;}
+.cor72     {background-color: #33FFFF;}
+.cor73     {background-color: #660000;}
+.cor74     {background-color: #660033;}
+.cor75     {background-color: #660066;}
+.cor76     {background-color: #660099;}
+.cor77     {background-color: #6600cc;}
+.cor78     {background-color: #6600ff;}
+.cor79     {background-color: #663300;}
+.cor80     {background-color: #663333;}
+.cor81     {background-color: #663366;}
+.cor82     {background-color: #663399;}
+.cor83     {background-color: #6633cc;}
+.cor84     {background-color: #6633ff;}
+.cor85     {background-color: #666600;}
+.cor86     {background-color: #666633;}
+.cor87     {background-color: #666666;}
+.cor88     {background-color: #666699;}
+.cor89     {background-color: #6666cc;}
+.cor90     {background-color: #6666ff;}
+.cor91     {background-color: #669900;}
+.cor92     {background-color: #669933;}
+.cor93     {background-color: #669966;}
+.cor94     {background-color: #669999;}
+.cor95     {background-color: #6699cc;}
+.cor96     {background-color: #6699ff;}
+.cor97     {background-color: #66cc00;}
+.cor98     {background-color: #66cc33;}
+.cor99     {background-color: #66cc66;}
+.cor100     {background-color: #66cc99;}
+.cor101     {background-color: #66cccc;}
+.cor102     {background-color: #66ccff;}
+.cor103     {background-color: #66FF00;}
+.cor104     {background-color: #66FF33;}
+.cor105     {background-color: #66ff66;}
+.cor106     {background-color: #66ff99;}
+.cor107     {background-color: #66ffcc;}
+.cor108     {background-color: #66FFFF;}
+.cor109     {background-color: #990000;}
+.cor110     {background-color: #990033;}
+.cor111     {background-color: #990066;}
+.cor112     {background-color: #990099;}
+.cor113     {background-color: #9900cc;}
+.cor114     {background-color: #9900ff;}
+
+.cor115     {background-color: #993300;}
+
+.cor116     {background-color: #993333;}
+
+.cor117     {background-color: #993366;}
+
+.cor118     {background-color: #993399;}
+
+.cor119     {background-color: #9933cc;}
+
+.cor120     {background-color: #9933ff;}
+
+.cor121     {background-color: #996600;}
+
+.cor122     {background-color: #996633;}
+
+.cor123     {background-color: #996666;}
+
+.cor124     {background-color: #996699;}
+
+.cor125     {background-color: #9966cc;}
+
+.cor126     {background-color: #9966ff;}
+
+.cor127     {background-color: #999900;}
+
+.cor128     {background-color: #999933;}
+
+.cor129     {background-color: #999966;}
+
+.cor130     {background-color: #999999;}
+
+.cor131     {background-color: #9999cc;}
+
+.cor132     {background-color: #9999ff;}
+
+.cor133     {background-color: #99cc00;}
+
+.cor134     {background-color: #99cc33;}
+
+.cor135     {background-color: #99cc66;}
+
+.cor136     {background-color: #99cc99;}
+
+.cor137     {background-color: #99cccc;}
+
+.cor138     {background-color: #99ccff;}
+
+.cor139     {background-color: #99ff00;}
+
+.cor140     {background-color: #99ff33;}
+
+.cor141     {background-color: #99ff66;}
+
+.cor142     {background-color: #99ff99;}
+
+.cor143     {background-color: #99ffcc;}
+
+.cor144     {background-color: #99ffff;}
+
+.cor145     {background-color: #cc0000;}
+
+.cor146     {background-color: #cc0033;}
+
+.cor147     {background-color: #cc0066;}
+
+.cor148     {background-color: #cc0099;}
+
+.cor149     {background-color: #cc00cc;}
+
+.cor150     {background-color: #cc00ff;}
+
+.cor151     {background-color: #cc3300;}
+
+.cor152     {background-color: #cc3333;}
+
+.cor153     {background-color: #cc3366;}
+
+.cor154     {background-color: #cc3399;}
+
+.cor155     {background-color: #cc33cc;}
+
+.cor156     {background-color: #cc33ff;}
+
+.cor157     {background-color: #cc6600;}
+
+.cor158     {background-color: #cc6633;}
+
+.cor159     {background-color: #cc6666;}
+
+.cor160     {background-color: #cc6699;}
+
+.cor161     {background-color: #cc66cc;}
+
+.cor162     {background-color: #cc66ff;}
+
+.cor163     {background-color: #cc9900;}
+
+.cor164     {background-color: #cc9933;}
+
+.cor165     {background-color: #cc9966;}
+
+.cor166     {background-color: #cc9999;}
+
+.cor167     {background-color: #cc99cc;}
+
+.cor168     {background-color: #cc99ff;}
+
+.cor169     {background-color: #cccc00;}
+
+.cor170     {background-color: #cccc33;}
+
+.cor171     {background-color: #cccc66;}
+
+.cor172     {background-color: #cccc99;}
+
+.cor173     {background-color: #cccccc;}
+
+.cor174     {background-color: #ccccff;}
+
+.cor175     {background-color: #ccff00;}
+
+.cor176     {background-color: #ccff33;}
+
+.cor177     {background-color: #CCFF66;}
+
+.cor178     {background-color: #ccff99;}
+
+.cor179     {background-color: #ccffcc;}
+
+.cor180     {background-color: #ccffff;}
+
+.cor181     {background-color: #FF0000;}
+
+.cor182     {background-color: #FF0033;}
+
+.cor183     {background-color: #ff0066;}
+
+.cor184     {background-color: #ff0099;}
+
+.cor185     {background-color: #ff00cc;}
+
+.cor186     {background-color: #FF00FF;}
+
+.cor187     {background-color: #ff3300;}
+
+.cor188     {background-color: #ff3333;}
+
+.cor189     {background-color: #ff3366;}
+
+.cor190     {background-color: #ff3399;}
+
+.cor191     {background-color: #ff33cc;}
+
+.cor192     {background-color: #ff33ff;}
+
+.cor193     {background-color: #ff6600;}
+
+.cor194     {background-color: #ff6633;}
+
+.cor195     {background-color: #ff6666;}
+
+.cor196     {background-color: #ff6699;}
+
+.cor197     {background-color: #ff66cc;}
+
+.cor198     {background-color: #ff66ff;}
+
+.cor199     {background-color: #ff9900;}
+
+.cor200     {background-color: #ff9933;}
+
+.cor201     {background-color: #ff9966;}
+
+.cor202     {background-color: #ff9999;}
+
+.cor203     {background-color: #ff99cc;}
+
+.cor204     {background-color: #ff99ff;}
+
+.cor205     {background-color: #ffcc00;}
+
+.cor206     {background-color: #ffcc33;}
+
+.cor207     {background-color: #ffcc66;}
+
+.cor208     {background-color: #ffcc99;}
+
+.cor209     {background-color: #ffcccc;}
+
+.cor210     {background-color: #ffccff;}
+
+.cor211     {background-color: #FFFF00;}
+
+.cor212     {background-color: #FFFF33;}
+
+.cor213     {background-color: #FFFF66;}
+
+.cor214     {background-color: #ffff99;}
+
+.cor215     {background-color: #ffffcc;}
+
+.cor216     {background-color: #FFFFFF;}
+
+div.form-item-captcha-response label:after {
+    content: ", responda ";
+}
+
+.navbar-toggle > span {
+float: right;
+margin: 5px 0 0 5px;
+}
+/**  Compartilhamento de redes socias **/
+
+ul.links   {
+  margin: 15px 0px 15px 0px;
+  padding: 20px 0px 0px 0px;
+  clear: both;
+
+  }
+  
+ul.links  li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+}
+
+/* Service Links em Links */
+ul.links.list-inline {
+margin-top: 20px;
+}
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 5px 0px 0px;
+}
+
+.footer {
+    margin-top: 5px;
+}
+
+.servico ul.menu {
+    float: right;
+
+}
+.servico ul.menu li {
+  float: left;
+}
+.servico .nav {
+  margin: 0;
+}
+
+#navbar a {
+    color: #000000;
+}
+
+#navbar a:hover {
+    color: #000000;
+}
+
+.servico .nav > li > a {
+    font-weight: bold;
+}
+
+#main {
+    margin-top: 10px; 
+}
+.page-header {
+    margin-top: 21px;
+}
+
+#header .header-main .site-info .subordination {
+    text-transform: uppercase;
+    margin-left: 3px;
+	font-weight: bold;
+}
+img.print-icon {
+    vertical-align: middle;
+    float: right;
+}
+.region-sidebar-first .active {
+    border-style: none;
+    border-width: 2px 0px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #FFF;
+    background-color: #F28F00;
+    border-color: transparent;
+    cursor: default;
+}
+
+.footer {
+    background-color: #ffcc66;
+    color: #2F4C73;
+}
+#navbar {
+    background-color: #ffcc66;
+}
+
+.region-sidebar-first .block-title {
+    color: #000000;
+    border-top: 4px solid #000000;
+}
+
+a {
+    color: #0066ff;
+    text-decoration: none;
+}
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.footer .block-title {
+    color: #000000;
+}
+
+.footer .block .content a:hover, .footer .block .content a:focus {
+    color: #000000;
+}
+.footer .block .content a {
+    color: #000000;
+}
+.pagination > li > a, .pagination > li > span {
+    margin-left: 4px;
+    color: #000000;
+}
+
+#paginacao {
+  display: inline-block;
+  padding-left: 0;
+  margin: 21px 0;
+  border-radius: 0;
+  width: 100%;
+text-align: center;
+}
+#paginacao li {
+  display: inline;
+}
+#paginacao  li a {
+  position: relative;
+  padding: 8px 12px;
+  line-height: 1.4;
+  text-decoration: none;
+  color: #008cba;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-left: -1px;
+}
+
+#sidebar-first-menu h2 {
+font-size: 18px;
+}
+
+.footer {
+    margin-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #E5E5E5;
+}
+
+#block-addtoany-addtoany-button {
+	border-top: 1px solid #cccccc;
+}
+
+.view .entity_pager {
+    margin: 2em 0;
+}
+
+.row-display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row-display-flex > [class*='col-'] {
+  flex-grow: 1;
+}
+
+.thumbnail img,
+.thumbnail a  img {
+  width:100%;
+}
+
+.thumbnail p {
+	margin: 0;
+	padding:0;
+	width: inherit;
+}
+
+.dlink-borda {
+    border-width: 1px;
+    border-style: solid;
+}
+
+blockquote {
+ font-size: inherit;
+}
+
+
+code {
+    font-family: monospace;
+    color: #000000;
+    font-weight: bold;
+    background-color: inherit;
+}
