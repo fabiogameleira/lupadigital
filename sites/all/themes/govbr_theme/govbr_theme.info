@@ -11,6 +11,8 @@ regions[header]               = 'Top Bar'
 regions[highlighted]          = 'Highlighted'
 regions[help]                 = 'Help'
 regions[content]              = 'Content'
+regions[paginacao]            = 'Paginacao'
+regions[content_bottom]       = 'Content Bottom'
 regions[sidebar_first]        = 'Primary'
 regions[footer]               = 'Footer'
 regions[footer_firstcolumn]   = 'Footer first column'
@@ -21,7 +23,7 @@ regions[footer_fourthcolumn]  = 'Footer fourth column'
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
-stylesheets[all][] = css/style.css
+stylesheets[all][] = css/style-normalize.css
 stylesheets[all][] = css/style-lupa.css
 
 ; ;;;;;;;;;;;;;;;;;;;;;
