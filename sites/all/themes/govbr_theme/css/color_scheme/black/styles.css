@@ -1,3 +1,12 @@
+:focus {
+  outline: 1px dashed #ff000070 !important;
+}
+
+#header a:focus {
+  outline: 1px dashed #ffffff !important;
+}
+
+
 #header {
   background-color: #000000;
   background-image: linear-gradient(to bottom, #000000, #6f6f6f);
@@ -22,9 +31,11 @@
   background-color: #e8ab02;
   color: #ffffff;
 }
+/*
 #header .header-top .accessibility {
   border-color: #ffffff !important;
 }
+*/
 #header .header-top .accessibility a {
   color: #ffffff;
 }
@@ -41,8 +52,13 @@
   background-color: #ffcc66;
 }
 #navbar a {
-  color: #2f4c73;
+  color: #222222;
 }
+
+#navbar a:hover {
+    color: #222222;
+}
+
 #navbar .menu.secondary li {
   border-color: #2f4c73;
 }
@@ -59,27 +75,20 @@
 }
 .footer {
   background-color: #ffcc66;
-  color: #2f4c73;
+  color: inherit;
 }
-.footer .block .content a {
-  color: #03316f;
+
+#conteudopreto {
+    background-color: #000000;
+    color: #000000;
 }
-.footer .block .content a:hover,
-.footer .block .content a:focus {
-  color: #03316f;
-}
-.footer .block-title {
-  color: #2f4c73;
-}
-#footer-brasil {
-  background-color: #f28f00;
-}
+
 .footer-column .block {
   border-color: #03316f;
 }
 .region-sidebar-first .block-title {
-  color: #03316f;
-  border-top: 4px solid #03316f;
+
+  border-top: 4px solid #222222;
 }
 .region-sidebar-first .block-no-title li a {
   color: #6c918f;
@@ -87,18 +96,7 @@
 .region-sidebar-first .active {
   border-color: #03316f;
 }
-.font-govbr:before {
-  color: #165abf;
-}
-.font-govbr:hover:before {
-  color: #0e3987;
-}
-.font-govbr-square:before {
-  background: #165abf;
-}
-.font-govbr-square:hover:before {
-  background: #0e3987;
-}
+
 @media (max-width: 768px) {
   #sidebar-first-menu {
     background-color: #f8c300;

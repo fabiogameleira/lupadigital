@@ -203,6 +203,17 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+
+    <?php if (!empty($page['paginacao'])): ?>
+	    <nav>
+        <?php print render($page['paginacao']); ?>
+		</nav>
+    <?php endif; ?>
+	
+	<?php if (!empty($page['content_bottom'])): ?>
+        <?php print render($page['content_bottom']); ?>
+    <?php endif; ?>
+	  
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
@@ -213,7 +224,6 @@
   </div>
 </div>
 <footer id="footer">
-  <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn'] || $page['footer']): ?>
   <div class="footer">
     <div class="container">
       <div class="row">
@@ -228,18 +238,21 @@
         </div>
         <div class="footer-column col-sm-6 col-md-3">
           <?php print render($page['footer_fourthcolumn']); ?>
-		  <p><a href="#topo-pg">Topo</a></p>
+        </div>	
+      </div>
+    </div>
+	<div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-10 col-lg-19">
+          <?php print render($page['footer_left']); ?>
+        </div>
+		        <div class="col-sm-2 col-md-2 col-lg-2">
+          <?php print render($page['footer_right']); ?>
         </div>
       </div>
     </div>
   </div>
-  <?php endif; ?>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <?php print render($page['footer']); ?>
-        </div>
-      </div>
-    </div>
+
+  
 </footer>
