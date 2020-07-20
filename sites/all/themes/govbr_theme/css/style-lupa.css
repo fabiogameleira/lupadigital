@@ -1089,3 +1089,55 @@ code {
     font-weight: bold;
     background-color: inherit;
 }
+.semantica header {
+    border: 2px solid #cccccc;
+	height: 50px;
+	text-align: center;
+	background-color: #0099ff;
+	}
+.semantica nav {    
+	border: 2px solid #cccccc;
+	height: 50px;
+	text-align: center;
+	background-color: #ccffff;
+}
+
+.semantica aside.left {    
+    border: 2px solid #cccccc;
+    width: 70%;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+    height: 300px;
+    text-align: center;
+    background-color: #33cccc;
+}
+
+.semantica aside.right {    
+    border: 2px solid #cccccc;
+    width: 30%;
+    float: right;
+    font-style: italic;
+    height: 300px;
+    text-align: center;
+    background-color: #ffffcc;
+}
+
+.semantica section {
+	    border: 2px solid #cccccc;
+		text-align: center;
+		height: 150px;	
+}
+.semantica article {    
+	border: 2px solid #cccccc;
+	text-align: center;
+	height: 150px;	
+}
+
+.semantica footer {    
+	border: 2px solid #cccccc;
+	clear: both;
+	height: 50px; 	
+	text-align: center;	
+	background-color: #ccffff;
+}
