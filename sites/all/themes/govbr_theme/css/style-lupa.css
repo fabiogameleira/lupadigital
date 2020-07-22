@@ -1141,3 +1141,10 @@ code {
 	text-align: center;	
 	background-color: #ccffff;
 }
+
+.contexto {
+  position: absolute;
+  left: -9999em;
+  width: 1em;
+  overflow: hidden;
+}
