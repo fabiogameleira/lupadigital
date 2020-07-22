@@ -564,6 +564,16 @@ h6,
 
 }
 
+pre {
+  padding-bottom: 9.5px;
+  margin: 15px 0 15px;
+}
+
+blockquote {
+	padding-bottom: 9.5px;
+    margin: 15px 0 15px;
+}
+
 /* Cores WebSafe palete */
 
 table th {background-color: #FFCC66; padding: 10px;}
