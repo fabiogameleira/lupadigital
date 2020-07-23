@@ -527,18 +527,20 @@ h2,
 h3,
 .h3 {
   font-size: 1.325em;
-  margin: 25px 0 10px;
+  padding-bottom: 9.5px;
   margin: 15px 0 15px;
 }
 h4,
 .h4 {
-    font-size: 0.875em;
-    margin: 25px 0 10px;
+  font-size: 1.1em;
+  padding-bottom: 9.5px;
+  margin: 15px 0 15px;
 }
 h5,
 .h5 {
-  font-size: 0.6875em;
-  margin: 25px 0 10px;
+  font-size: 0.875em;
+  padding-bottom: 9.5px;
+  margin: 15px 0 15px;
 }
 h6,
 .h6 {
