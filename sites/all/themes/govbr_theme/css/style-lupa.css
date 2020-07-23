@@ -526,9 +526,11 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 1.325em;
-  padding-bottom: 9.5px;
-  margin: 15px 0 15px;
+    font-size: 1.325em;
+    padding-bottom: 15px;
+    margin: 15px 0 15px;
+    border-top: 1px solid #cccccc;
+    padding-top: 15px;
 }
 h4,
 .h4 {
