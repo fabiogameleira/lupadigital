@@ -1185,3 +1185,18 @@ input[type="radio"], input[type="checkbox"] {
 label, .control-label, .help-block, .checkbox, .radio {
     color: #666666;
 }
+
+kbd, .keycap {
+    background-color: #f1f1f1;
+    border: 1px solid #666;
+    border-width: 1px 2px 2px 1px;
+    border-radius: 5px;
+    color: #333;
+    padding: 0 2px;
+    margin: 1px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 17px;
+    display: inline-block;
+    text-align: center;
+}
