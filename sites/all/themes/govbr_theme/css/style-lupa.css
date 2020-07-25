@@ -1209,3 +1209,6 @@ kbd, .keycap {
   overflow: hidden;
 	
 }
+.block {
+	margin-bottom: 20px;
+}
