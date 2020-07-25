@@ -45,10 +45,9 @@
  */
 ?>
 <!DOCTYPE html>
-<?php echo '<?xml version="1.0" encoding="UTF-8"?>';?>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces;?>>
+<html lang="pt-br">
 <head>
-  <meta http-equiv="x-ua-compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /> 
+  <meta http-equiv="x-ua-compatible" content="IE=EDGE" /> 
   <meta name="HandheldFriendly" content="true" />
   <meta name="MobileOptimized" content="320" />
   <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
