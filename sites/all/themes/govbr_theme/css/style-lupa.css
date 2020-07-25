@@ -1200,3 +1200,12 @@ kbd, .keycap {
     display: inline-block;
     text-align: center;
 }
+
+#block-menu-menu-servico h2.block-title,
+#block-views-entity-pager-example-block h2.block-title {
+  position: absolute;
+  left: -9999em;
+  width: 1em;
+  overflow: hidden;
+	
+}
