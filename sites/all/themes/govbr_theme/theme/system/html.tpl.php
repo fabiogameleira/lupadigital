@@ -50,7 +50,6 @@
   <meta http-equiv="x-ua-compatible" content="IE=EDGE" /> 
   <meta name="HandheldFriendly" content="true" />
   <meta name="MobileOptimized" content="320" />
-  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
