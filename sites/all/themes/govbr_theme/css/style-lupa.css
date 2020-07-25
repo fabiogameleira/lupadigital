@@ -1212,3 +1212,11 @@ kbd, .keycap {
 .block {
 	margin-bottom: 20px;
 }
+
+.fa:before {
+    margin-right: 5px;
+}
+
+.fa-adjust:before {
+    content: "\f042";
+}

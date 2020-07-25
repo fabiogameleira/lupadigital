@@ -89,7 +89,7 @@
             </li>
             <?php endif; ?>
             <li>
-              <a href="javascript:void(0)" id="contrast"><?php print t('High contrast') ?></a>
+              <a id="contrast"  class="fa fa-adjust"><?php print t('High contrast') ?></a>
             </li>
             <?php if (isset($accessibility_sitemap)): ?>
             <li>
