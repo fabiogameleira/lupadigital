@@ -78,7 +78,7 @@
     <div class="header-top">
       <div class="row">
         <div class="col-sm-7">
-		  <a name="topo-pg" id="topo-pg" class="element-invisible">Topo da página.</a>
+		  <a id="topo-pg" class="element-invisible">Topo da página.</a>
           <?php print $accessibility_shortcuts ?>
         </div>
         <div class="col-sm-5">
