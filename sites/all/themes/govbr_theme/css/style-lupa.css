@@ -532,6 +532,11 @@ h3,
     border-top: 1px solid #cccccc;
     padding-top: 15px;
 }
+
+#conteudopreto h3 {
+	border: none;
+}
+
 h4,
 .h4 {
   font-size: 1.1em;
