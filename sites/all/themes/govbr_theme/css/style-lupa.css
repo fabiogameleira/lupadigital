@@ -1226,6 +1226,11 @@ kbd, .keycap {
 	margin-bottom: 20px;
 }
 
+.block-menu-menu-servico {
+	text-transform: uppercase;
+    font-size: 0.785em;	
+}
+
 .fa:before {
     margin-right: 5px;
 }
