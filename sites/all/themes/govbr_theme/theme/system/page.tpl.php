@@ -227,18 +227,15 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="footer-column col-sm-6 col-md-3">
+        <div class="footer-column col-sm-6 col-md-4">
           <?php print render($page['footer_firstcolumn']); ?>
         </div>
-        <div class="footer-column col-sm-6 col-md-3">
+        <div class="footer-column col-sm-6 col-md-4">
           <?php print render($page['footer_secondcolumn']); ?>
         </div>
-        <div class="footer-column col-sm-6 col-md-3">
+        <div class="footer-column col-sm-6 col-md-4">
           <?php print render($page['footer_thirdcolumn']); ?>
         </div>
-        <div class="footer-column col-sm-6 col-md-3">
-          <?php print render($page['footer_fourthcolumn']); ?>
-        </div>	
       </div>
     </div>
 	<div class="container">
