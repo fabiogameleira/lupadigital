@@ -184,7 +184,7 @@
     <?php endif; ?>
 
     <section<?php print $content_column_class; ?>>
-      <a id="main-content"></a>
+      <a id="main-content" role="main"></a>
       <?php print render($title_prefix); ?>
 	  
       <?php if (!empty($title)): ?>
