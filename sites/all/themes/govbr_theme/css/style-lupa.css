@@ -1253,7 +1253,7 @@ kbd, .keycap {
 	margin-left: 6em !important;
 }
 
-@media (max-device-width: 480px) {
+@media (max-width: 480px) {
 
 	.entity_pager_prev {
 		margin-right: 3em !important;
