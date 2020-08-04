@@ -233,6 +233,7 @@
         </div>
         <div class="footer-column col-sm-6 col-md-4">
           <?php print render($page['footer_thirdcolumn']); ?>
+
         </div>
       </div>
     </div>
@@ -241,8 +242,9 @@
         <div class="col-sm-10 col-md-10 col-lg-19">
           <?php print render($page['footer_left']); ?>
         </div>
-		        <div class="col-sm-2 col-md-2 col-lg-2">
+		 <div class="col-sm-2 col-md-2 col-lg-2">
           <?php print render($page['footer_right']); ?>
+		  <a class="topo fa fa-arrow-up" href="#" title="Ir para o topo da página">TOPO</a>
         </div>
       </div>
     </div>

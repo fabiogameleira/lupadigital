@@ -1,3 +1,7 @@
+body {
+	 color: #000033;
+}
+
 :focus {
   outline: 1px dashed #ff000070 !important;
 }
@@ -57,11 +61,11 @@
   background-color: #ffcc66;
 }
 #navbar a {
-  color: #222222;
+  color: #000033;
 }
 
 #navbar a:hover {
-    color: #222222;
+    color: #000033;
 }
 
 #navbar .menu.secondary li {
@@ -93,7 +97,7 @@
 }
 .region-sidebar-first .block-title {
 
-  border-top: 4px solid #222222;
+  border-top: 4px solid #000033;
 }
 .region-sidebar-first .block-no-title li a {
   color: #6c918f;
@@ -106,4 +110,8 @@
   #sidebar-first-menu {
     background-color: #f8c300;
   }
+}
+
+a.topo {
+	color: #000033;
 }
