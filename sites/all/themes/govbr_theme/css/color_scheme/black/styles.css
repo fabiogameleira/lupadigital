@@ -45,6 +45,11 @@
 #header .search-form .btn-default {
   color: #2f4c73;
 }
+
+#header .header-main .site-info {
+  color: #ffffff;
+}
+
 .breadcrumb a {
   color: #6c918f;
 }

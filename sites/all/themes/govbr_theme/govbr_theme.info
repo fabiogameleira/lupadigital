@@ -6,6 +6,7 @@ base theme = bootstrap
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
+regions[logotipo]             = 'Logotipo'
 regions[navigation]           = 'Navigation'
 regions[header]               = 'Top Bar'
 regions[highlighted]          = 'Highlighted'

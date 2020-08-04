@@ -102,18 +102,18 @@
     </div>
     <div class="header-main">
       <div class="row">
-        <div class="col-sm-8 info">
+		<div class="col-xs-3 col-sm-1 info">
+			<?php if (!empty($page['logotipo'])): ?>
+			  <div class="logo">
+				  <?php print render($page['logotipo']); ?>
+			  </div>
+			<?php endif; ?>
+		</div>
+		<div class="col-xs-9 col-sm-7 info">
           <div class="site-info">
-            <?php if ($logo): ?>
-              <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-              </a>
-            <?php endif; ?>
-            <a href="<?php print $front_page ?>">
               <span class="designation"><?php print $info_designation ?></span>
               <h1 class="site-name"><?php print $info_name ?></h1>
               <span class="subordination"><?php print $info_subordination ?></span>
-            </a>
           </div>
         </div>
         <div class="col-sm-4">
