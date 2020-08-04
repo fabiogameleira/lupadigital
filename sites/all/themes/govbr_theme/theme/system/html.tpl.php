@@ -47,7 +47,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta http-equiv="x-ua-compatible" content="IE=EDGE" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="HandheldFriendly" content="true" />
   <meta name="MobileOptimized" content="320" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
