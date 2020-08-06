@@ -1277,7 +1277,13 @@ kbd, .keycap {
   width:100%;
 }
 
-.saude header { }
+.saude header img { 
+   width: 100%;
+}
+.saude .row {
+	color: #999999;
+    font-weight: 600;
+}
 
 .saude h3 {
     border: none;
