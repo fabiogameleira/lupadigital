@@ -1291,6 +1291,7 @@ kbd, .keycap {
     color: #33cccc;
     font-weight: 700;
     font-size: 2em;	
+	font-style: italic;
 }
 .maos {}
 .contato
