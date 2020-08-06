@@ -21,11 +21,11 @@
 	    $('#contrast').click(function(){
 	        if ($('body').hasClass('highcontrast')) {
 	          $('body').removeClass('highcontrast');
-	          setCookie("govbr_highcontrast", 0);
+	          setCookie("lupa_highcontrast", 0);
 	        }
 	        else {
 	          $('body').addClass('highcontrast');
-	          setCookie("govbr_highcontrast", 1);
+	          setCookie("lupa_highcontrast", 1);
 	        }
 	
 	        return false;

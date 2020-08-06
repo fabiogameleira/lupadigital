@@ -1272,3 +1272,12 @@ kbd, .keycap {
 .entity_pager_next:after {
 	content: ">";
 }
+.img-responsive,
+{
+  width:100%;
+}
+
+.saude {}
+.saude h3 {}
+.maos {}
+.contato
