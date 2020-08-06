@@ -1277,7 +1277,14 @@ kbd, .keycap {
   width:100%;
 }
 
-.saude {}
-.saude h3 {}
+.saude header { }
+
+.saude h3 {
+    border: none;
+    text-align: center;
+    color: #33cccc;
+    font-weight: 700;
+    font-size: 2em;	
+}
 .maos {}
 .contato
