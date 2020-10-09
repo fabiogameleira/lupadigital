@@ -111,11 +111,12 @@
         // Unfortunately getbootstrap.com does not have HTTPS enabled, so the
         // preview image cannot be protocol relative.
         // @todo Make protocol relative if/when Bootstrap enables HTTPS.
-        $preview.append('<a id="bootstrap-theme-preview-bootstrap_theme" class="bootswatch-preview element-invisible" href="http://getbootstrap.com/examples/theme/" target="_blank"><img class="img-responsive" src="http://getbootstrap.com/examples/screenshots/theme.jpg" alt="' + Drupal.t('Preview of the Bootstrap theme') + '" /></a>');
+        $preview.append('<a id="bootstrap-theme-preview-bootstrap_theme" class="bootswatch-preview element-invisible" href="https://getbootstrap.com/docs/3.3/examples/theme/" target="_blank"><img class="img-responsive" src="https://getbootstrap.com/docs/3.3/examples/screenshots/theme.jpg" alt="' + Drupal.t('Preview of the Bootstrap theme') + '" /></a>');
 
         // Retrieve the Bootswatch theme preview images.
+        // @todo This should be moved into PHP.
         $.ajax({
-          url: '//api.bootswatch.com/3/',
+          url: 'https://bootswatch.com/api/3.json',
           dataType: 'json',
           success: function (json) {
             var themes = json.themes;
