@@ -104,7 +104,7 @@
       <div class="row">
 		<div class="col-xs-3 col-sm-1 info">
 				  <a class="logo navbar-btn pull-left" href="/" title="Início">
-				  <img alt="Logotipo Lupadigital - Uma lupa sobre a palavra Lupa, com as letras up ampliadas." src="/sites/default/files/lupadigital.png">
+				  <img alt="Logotipo Lupadigital - Uma lupa sobre a palavra Lupa, com as letras up ampliadas." src="/sites/default/files/logo.gif">
 				  </a>
 		</div>
 		<div class="col-xs-9 col-sm-7 info">
