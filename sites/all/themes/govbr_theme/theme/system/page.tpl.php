@@ -103,7 +103,7 @@
     <div class="header-main">
       <div class="row">
 		<div class="col-xs-3 col-sm-1 info">
-				  <a class="logo navbar-btn pull-left" href="/">
+				  <a class="logo navbar-btn pull-left" href="/" title="Início">
 				  <img alt="Logotipo Lupadigital - Uma lupa sobre a palavra Lupa, com as letras up ampliadas." src="/sites/default/files/logo.gif">
 				  </a>
 		</div>
@@ -244,7 +244,7 @@
         </div>
 		 <div class="col-sm-2 col-md-2 col-lg-2">
           <?php print render($page['footer_right']); ?>
-		  <a class="topo fa fa-arrow-up" href="#" title="Ir para o topo da página">TOPO</a>
+		  <a class="topo fa fa-arrow-up" href="#top" title="Ir para o topo da página">TOPO</a>
         </div>
       </div>
     </div>
