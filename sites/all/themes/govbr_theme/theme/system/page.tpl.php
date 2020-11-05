@@ -244,7 +244,7 @@
         </div>
 		 <div class="col-sm-2 col-md-2 col-lg-2">
           <?php print render($page['footer_right']); ?>
-		  <a class="topo fa fa-arrow-up" href="#top" title="Ir para o topo da página">TOPO</a>
+		  <a class="topo fa fa-arrow-up" href="#topo-pg" title="Ir para o topo da página">TOPO</a>
         </div>
       </div>
     </div>
