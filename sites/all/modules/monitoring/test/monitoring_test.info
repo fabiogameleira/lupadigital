@@ -1,0 +1,14 @@
+name = Monitoring Test
+description = Monitoring base test module.
+package = Monitoring
+core = 7.x
+hidden = TRUE
+
+dependencies[] = monitoring
+
+; Information added by Drupal.org packaging script on 2017-09-11
+version = "7.x-1.1"
+core = "7.x"
+project = "monitoring"
+datestamp = "1505140148"
+

@@ -1,0 +1,70 @@
+.highcontrast a {
+    color: #FC0 !important;
+}
+
+.highcontrast p {
+	color: #fff !important;
+}
+
+.highcontrast :focus {
+  outline: 1px dashed #ffffff !important;
+}
+
+.highcontrast  #header a:focus {
+  outline: 1px dashed #ffffff !important;
+}
+
+.highcontrast {
+  background: black !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+.highcontrast *,
+.highcontrast *:before,
+.highcontrast *:after {
+  background-color: black !important;
+  color: white !important;
+  border-color: white !important;
+}
+.highcontrast #header {
+  background: black;
+}
+.highcontrast #navbar,
+.highcontrast #navbar *,
+.highcontrast #page-header .menu * {
+  background: #ccc !important;
+  color: black !important;
+}
+.highcontrast .region-sidebar-first .block-title,
+.highcontrast #header .header-top .shortcuts li span {
+  background: #333 !important;
+}
+.highcontrast .region-content a {
+  color: #fff333 !important;
+  text-decoration: underline !important;
+}
+
+.highcontrast .no-contrast,
+.highcontrast .no-contrast * {
+  background-color: #ccc !important;
+  color: black !important;
+  border-color: black !important;
+}
+.highcontrast #page-header .block-menu .block-title {
+  background: black url(../images/destaque-arrow.png) no-repeat right bottom;
+}
+.highcontrast #page-header .block-menu .menu,
+.highcontrast #page-header .block-menu .menu li,
+.highcontrast #page-header .block-menu .menu li a {
+  background-color: #ccc !important;
+}
+.highcontrast #page-header .block-menu .menu > li:last-child {
+  border-right: none !important;
+}
+.highcontrast .contextual-links-wrapper {
+  background-color: #ccc !important;
+}
+.highcontrast .contextual-links-wrapper * {
+  background-color: #ccc !important;
+}
